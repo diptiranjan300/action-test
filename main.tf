@@ -1,5 +1,5 @@
-resource "null_resource" "test" {
-triggers = {
-  "key" = "value"
-}
+resource "null_resource" "name" {
+  triggers = {
+    key = "value"
+  }
 }
