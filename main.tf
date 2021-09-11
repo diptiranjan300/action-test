@@ -9,15 +9,9 @@ terraform {
       version = "3.0.1"
     }
   }
-  required_version = ">= 0.13git s"
+  required_version = ">= 0.13"
 
-  backend "remote" {
-    organization = "REPLACE_ME"
 
-    workspaces {
-      name = "gh-actions-demo"
-    }
-  }
 }
 
 
